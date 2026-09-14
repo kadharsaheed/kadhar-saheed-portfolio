@@ -1,21 +1,9 @@
 # Kadhar Saheed — Portfolio
 
-Personal portfolio website for Kadhar Saheed, Linux System Administrator.
+Light, professional portfolio for Kadhar Saheed — Linux System Administrator / Hosting & Infrastructure.
 
-## Deploy to Vercel
+## GitHub / Vercel
+Upload `index.html`, `style.css`, `script.js` and optionally `resume.pdf` to the root of the existing GitHub repository. Vercel will redeploy automatically after the commit.
 
-This is a static HTML/CSS/JS website, so no build command is required.
-
-1. Upload these files to the `kadhar-saheed-portfolio` GitHub repository.
-2. In Vercel, choose **Import Git Repository**.
-3. Select `kadharsaheed/kadhar-saheed-portfolio`.
-4. Framework preset: **Other** (or let Vercel detect it).
-5. Build command: leave empty.
-6. Output directory: leave empty / root.
-7. Click **Deploy**.
-
-## Notes
-
-The portfolio uses professional information from the supplied resume. Personal details such as date of birth, home address and marital status are intentionally not published on the public portfolio.
-
-Update `index.html` if you want to add more projects, certifications, a resume download, or additional links.
+## Resume
+Place the user's PDF as `resume.pdf` in the repository root to enable the Download CV button.
