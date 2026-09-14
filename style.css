@@ -55,3 +55,5 @@ body{background:#080b19;color:#eaf2ff}.grid-bg{opacity:.22;background-image:line
 .hero h1.typed-name{white-space:nowrap}.typed-name em .name-letter{background:linear-gradient(90deg,#ff6bd5,#48f5e4);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:none}@media(max-width:600px){.hero h1.typed-name{font-size:44px;letter-spacing:-2px}}
 .typed-name em{margin-left:.18em}.typed-name .name-letter{background:linear-gradient(90deg,#ff6bd5,#48f5e4);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:none}
 .nav-icon{display:inline-grid;place-items:center;width:22px;margin-right:8px;color:#ff6bd5;font-size:14px;text-shadow:0 0 10px #ff6bd5aa}.header nav a:hover .nav-icon{color:#65f7e9;text-shadow:0 0 12px #65f7e9}
+.stack-grid h3{padding-right:0}
+.work-intro h2{font-size:clamp(34px,4vw,56px);letter-spacing:-2px}.work-intro p{font-size:17px;line-height:1.7}.work-card h3{font-size:22px}.work-card p{font-size:14px;line-height:1.8}
