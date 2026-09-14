@@ -61,3 +61,4 @@ body{background:#080b19;color:#eaf2ff}.grid-bg{opacity:.22;background-image:line
 .contact-form input[type="hidden"]{display:none}
 .work-intro h2{font-size:clamp(28px,3.2vw,46px);white-space:nowrap}@media(max-width:900px){.work-intro h2{white-space:normal}}
 .contact-section .contact-actions .button.solid{background:#ffffff12;color:#fff;border:1px solid #ffffff88;box-shadow:none}.sidebar-connect img{filter:brightness(0) saturate(100%) invert(85%) sepia(70%) saturate(650%) hue-rotate(124deg) brightness(102%) contrast(101%)}
+.header nav{gap:0}.header nav a{padding:7px 13px}
