@@ -1,21 +1,16 @@
-# Kadhar Saheed — Job Search Portfolio
+# Kadhar Saheed — Unique Multicolor Job Portfolio
 
-Professional portfolio for **Kadhar Saheed — Linux System Administrator / Infrastructure Operations**.
+A distinctive, light multi-color career portfolio for Kadhar Saheed, positioned for Linux System Administrator / Infrastructure Operations roles.
 
-This site is positioned as a **career/job-search portfolio**, not as a hosting-provider website.
+### Design
+- Purple + electric blue + cyan + orange + green accent system
+- Large editorial typography
+- Light paper background
+- Terminal/server visual
+- Color-coded experience and project cards
+- Responsive mobile layout
 
-## Highlights
-- 3.5+ years of Linux administration experience
-- 24/7 support and monitoring
-- Linux and Windows server administration
-- cPanel, Plesk and DirectAdmin
-- Proxmox, KVM, Hyper-V, OpenVZ and VMware ESXi
-- MySQL, MariaDB and MSSQL
-- Zabbix, Observium and Acronis
-- Networking, server recovery, patching, hardening and migrations
+### Deploy
+Replace the existing `index.html`, `style.css`, and `script.js` in the GitHub repository. Vercel will automatically redeploy after the commit.
 
-## Deploy
-Upload `index.html`, `style.css`, `script.js`, and `resume.pdf` to the root of the GitHub repository. Vercel will automatically redeploy after the commit.
-
-## Resume
-Rename the supplied resume PDF to `resume.pdf` before uploading it to the repository. The Download Resume / Download CV buttons will then work.
+For the Download CV button, upload the resume as `resume.pdf` in the repository root.
