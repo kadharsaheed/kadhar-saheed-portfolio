@@ -64,3 +64,4 @@ body{background:#080b19;color:#eaf2ff}.grid-bg{opacity:.22;background-image:line
 .header nav{gap:0}.header nav a{padding:7px 13px}
 .header nav{gap:4px}.header nav a{padding:10px 13px}.section-head{gap:8px}
 .sidebar-connect i{font-size:16px;color:#65f7e9}.sidebar-connect a:hover i{color:#ff6bd5}
+.sidebar-connect a:active{transform:scale(1.2);box-shadow:0 0 28px #65f7e9aa;border-color:#65f7e9}
