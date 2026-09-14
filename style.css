@@ -65,3 +65,4 @@ body{background:#080b19;color:#eaf2ff}.grid-bg{opacity:.22;background-image:line
 .header nav{gap:4px}.header nav a{padding:10px 13px}.section-head{gap:8px}
 .sidebar-connect i{font-size:16px;color:#65f7e9}.sidebar-connect a:hover i{color:#ff6bd5}
 .sidebar-connect a:active{transform:scale(1.2);box-shadow:0 0 28px #65f7e9aa;border-color:#65f7e9}
+.stack-logo.fa-brands,.stack-logo.fa-solid{display:grid;place-items:center;color:#65f7e9;font-size:19px;font-style:normal;text-shadow:0 0 12px #65f7e9aa}.stack-grid article:nth-child(2) .stack-logo{color:#ff8a3d}.stack-grid article:nth-child(3) .stack-logo{color:#ff6bd5}.stack-grid article:nth-child(4) .stack-logo{color:#48f5e4}.stack-grid article:nth-child(5) .stack-logo{color:#ff6bd5}.stack-grid article:nth-child(6) .stack-logo{color:#65f7e9}
