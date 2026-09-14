@@ -1,25 +1,16 @@
-# Kadhar Saheed — Neon Job Portfolio
+# Kadhar Saheed — Unique Multicolor Job Portfolio
 
-A dark, multi-color, recruiter-focused portfolio for **Kadhar Saheed — Linux System Administrator**.
+A distinctive, light multi-color career portfolio for Kadhar Saheed, positioned for Linux System Administrator / Infrastructure Operations roles.
 
-## Design
-- Navy/black gradient background
-- Cyan, purple, blue, orange and pink accents
-- Fixed left navigation/sidebar
-- Large hero typography
-- Terminal-style infrastructure panel
-- Experience, skills, projects, education and resume sections
+### Design
+- Purple + electric blue + cyan + orange + green accent system
+- Large editorial typography
+- Light paper background
+- Terminal/server visual
+- Color-coded experience and project cards
 - Responsive mobile layout
 
-## GitHub
-Replace `index.html`, `style.css` and `script.js` in the existing repository.
+### Deploy
+Replace the existing `index.html`, `style.css`, and `script.js` in the GitHub repository. Vercel will automatically redeploy after the commit.
 
-## Resume
-Upload your PDF to the repository root as:
-
-`resume.pdf`
-
-The Download Resume buttons will then work.
-
-## Vercel
-The existing Vercel project is already connected to GitHub. Commit the changed files and Vercel should automatically redeploy.
+For the Download CV button, upload the resume as `resume.pdf` in the repository root.
