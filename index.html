@@ -17,12 +17,12 @@
 <header class="header">
   <a href="#home" class="logo">KADHAR <b>SAHEED</b></a>
   <div class="sidebar-profile"><img src="profile.png" alt="Kadhar Saheed"><span>LINUX SYSTEM ADMINISTRATOR</span></div>
-  <nav>
+  <nav id="primary-navigation" aria-label="Primary navigation">
     <a href="#about"><i class="nav-icon fa-solid fa-user" aria-hidden="true"></i>About</a><a href="#experience"><i class="nav-icon fa-solid fa-briefcase" aria-hidden="true"></i>Experience</a><a href="#stack"><i class="nav-icon fa-solid fa-screwdriver-wrench" aria-hidden="true"></i>Technical Skills</a>
     <a href="#work"><i class="nav-icon fa-solid fa-folder-open" aria-hidden="true"></i>Selected Work</a><a href="#education"><i class="nav-icon fa-solid fa-graduation-cap" aria-hidden="true"></i>Education</a><a href="#resume"><i class="nav-icon fa-solid fa-file-lines" aria-hidden="true"></i>Resume</a><a href="#contact"><i class="nav-icon fa-solid fa-envelope" aria-hidden="true"></i>Contact</a>
   </nav>
   <div class="sidebar-connect" aria-label="Contact links"><a href="tel:+919080548165" aria-label="Call Kadhar Saheed" title="Call +91 90805 48165">☎</a><a href="mailto:kadhar.saheed@outlook.com" aria-label="Email Kadhar Saheed" title="Email">✉</a><a href="https://www.linkedin.com/in/kadhar-saheed-n-591256329" target="_blank" rel="noopener" aria-label="Kadhar Saheed on LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a></div>
-  <button class="hamburger" aria-label="Menu">☰</button>
+  <button class="hamburger" type="button" aria-label="Open menu" aria-controls="primary-navigation" aria-expanded="false"><span aria-hidden="true">☰</span></button>
 </header>
 
 <main>
@@ -43,12 +43,24 @@
       <div><b>L2</b><span>INCIDENT RESPONSE</span></div>
     </div>
   </div>
-
-  <div class="hero-right">
-    <div class="orb"></div>
-    <div class="hero-insight"><span class="insight-kicker">LINUX SUPPORT PULSE</span><strong>24/7</strong><span class="insight-label">INCIDENT RESPONSE</span><div class="insight-stats"><span><b>99.9%</b> SYSTEM CARE</span><span><b>4</b> YEARS EXPERIENCE</span></div></div>
-    <div class="floating-card"><span>RELIABILITY FIRST</span><b>Monitor · Protect · Restore</b></div>
-  </div>
+  <aside class="hero-right" aria-label="Linux infrastructure operations overview">
+    <div class="orb" aria-hidden="true"></div>
+    <div class="server-card">
+      <div class="server-top"><span class="traffic" aria-hidden="true"><i></i><i></i><i></i></span><span>operations.snapshot</span><b>LINUX</b></div>
+      <div class="server-body" aria-label="Areas of infrastructure experience">
+        <div class="line"><span class="n">01</span><span class="key">focus</span></div>
+        <div class="value">infrastructure_operations</div>
+        <div class="line"><span class="n">02</span><span class="key">support</span></div>
+        <div class="service"><span>●</span> incident_response <b>24/7</b></div>
+        <div class="service"><span>●</span> monitoring <b>Zabbix</b></div>
+        <div class="service"><span>●</span> recovery <b>IPMI · fsck</b></div>
+        <div class="line"><span class="n">03</span><span class="key">platforms</span></div>
+        <div class="chips"><span>Linux</span><span>Virtualization</span><span>Backups</span><span>Migrations</span></div>
+        <div class="cursor" aria-hidden="true">▍</div>
+      </div>
+    </div>
+    <div class="floating-card"><span>OPERATIONS</span><b>Monitor · Recover · Improve</b></div>
+  </aside>
 </section>
 
 <section class="marquee"><div>LINUX <span>✦</span> SERVER SUPPORT <span>✦</span> VIRTUALIZATION <span>✦</span> MONITORING <span>✦</span> BACKUP <span>✦</span> SECURITY <span>✦</span> MIGRATION <span>✦</span> LINUX <span>✦</span></div></section>
@@ -75,10 +87,10 @@
       <h3>Nixserv IT Solutions Pvt. Ltd.</h3>
       <p class="client">Client · Leapswitch Networks</p>
       <div class="responsibilities">
-        <article><span>01</span><h4>Incident Management</h4><p>24/7 support, critical server recovery, filesystem errors, kernel panics, bootloader/GRUB recovery and Exim mail troubleshooting.</p></article>
-        <article><span>02</span><h4>Problem Management</h4><p>Hardware coordination with data-center teams and vendors, NetFlow analysis, server hardening and recurring virtualization issue resolution.</p></article>
-        <article><span>03</span><h4>Change Management</h4><p>Linux/Windows installation and upgrades, control-panel administration, patching, Acronis backup management and service migrations.</p></article>
-        <article><span>04</span><h4>Performance & Monitoring</h4><p>Zabbix and Observium monitoring plus Apache, Nginx and LiteSpeed optimization for stability and performance.</p></article>
+        <article><span>01</span><h4>Incident response & recovery</h4><p>Provide 24/7 support and restore server access after filesystem errors, kernel panics and boot failures using IPMI, fsck and GRUB recovery.</p></article>
+        <article><span>02</span><h4>Monitoring & prevention</h4><p>Use Zabbix and Observium to spot potential incidents early; investigate network disruptions with NetFlow and coordinate hardware fixes with data-center teams.</p></article>
+        <article><span>03</span><h4>Changes with continuity</h4><p>Install and upgrade Linux and Windows systems, apply patches, manage Acronis backups and coordinate service migrations with minimal operational impact.</p></article>
+        <article><span>04</span><h4>Production stability</h4><p>Tune Apache, Nginx and LiteSpeed, troubleshoot virtualization platforms and apply server hardening to support stable production services.</p></article>
       </div>
     </div>
   </div>
@@ -113,30 +125,30 @@
 <section class="section" id="education">
   <div class="section-head"><span class="index">05</span><span>EDUCATION</span><i></i></div>
   <div class="education">
+    <div><span>2017 — 2020</span><h3>Bachelor of Science in Computer Application (BCA)</h3><p>Jamal Mohamed College · Tiruchirappalli · 80%</p></div>
     <div><span>2020 — 2022</span><h3>M.Sc. Computer Science</h3><p>Jamal Mohamed College · Tiruchirappalli · 75%</p></div>
-    <div><span>2017 — 2020</span><h3>Bachelor of Computer Applications</h3><p>Jamal Mohamed College · Tiruchirappalli · 80%</p></div>
   </div>
 </section>
 
 <section class="section dark" id="resume">
   <div class="section-head"><span class="index">06</span><span>RESUME</span><i></i></div>
   <div class="work-intro"><h2>Want the full<br><em>picture?</em></h2><p>Download my resume for a detailed overview of my experience, technical skills and qualifications.</p></div>
-  <a class="button solid" href="" download>Download Resume <span>↓</span></a>
+  <a class="button solid" href="Kadhar_Saheed_Resume.pdf" download>Download Resume <span>↓</span></a>
 </section>
 
 <section class="contact-section" id="contact">
   <div class="contact-inner">
-    <span class="mono">07 / LET'S CONNECT</span>
-    <h2>Looking for a<br><em>reliable infrastructure professional?</em></h2>
-    <p>I'm actively exploring opportunities where I can contribute my Linux administration, infrastructure support, troubleshooting and operations experience.</p>
+    <h2>Let’s discuss my<br><em>next opportunity.</em></h2>
+    <p>I’m seeking a Linux System Administrator or Infrastructure Support role. If you’re hiring, I’d welcome the chance to discuss how my experience in server operations, monitoring and troubleshooting could support your team.</p>
     <form class="contact-form" id="contact-form" action="https://formsubmit.co/kadhar.saheed@outlook.com" method="POST">
       <input type="hidden" name="_subject" value="New portfolio contact message">
-      <input type="hidden" name="_captcha" value="false">
       <input type="hidden" name="_template" value="table">
+      <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" class="form-honey">
       <div class="form-row"><label>Name<input type="text" name="name" placeholder="Your name" required></label><label>Email<input type="email" name="email" placeholder="you@example.com" required></label></div>
       <label>Message<textarea name="message" rows="4" placeholder="Tell me how I can help..." required></textarea></label>
       <button class="button solid" type="submit">Send Message <span>↗</span></button>
     </form>
+    <p class="form-note">The form uses FormSubmit’s CAPTCHA protection. You can also reach me directly by email or phone.</p>
     <div class="contact-actions">
       <a class="button solid" href="mailto:kadhar.saheed@outlook.com">kadhar.saheed@outlook.com ↗</a><a class="button outline" href="tel:+919080548165">+91 90805 48165 ↗</a>
       <a class="button outline" href="https://www.linkedin.com/in/kadhar-saheed-n-591256329" target="_blank" rel="noopener">LinkedIn ↗</a>
