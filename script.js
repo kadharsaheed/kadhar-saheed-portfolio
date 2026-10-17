@@ -1,2 +1,41 @@
-const button=document.querySelector('.hamburger');const nav=document.querySelector('.header nav');button.addEventListener('click',()=>{const open=nav.dataset.open==='1';nav.dataset.open=open?'0':'1';nav.style.display=open?'none':'flex';nav.style.position='absolute';nav.style.top='76px';nav.style.left='0';nav.style.right='0';nav.style.padding='22px 7%';nav.style.background='#07090b';nav.style.flexDirection='column';nav.style.borderBottom='1px solid #1c2329'});document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>{if(innerWidth<901)nav.style.display='none'}));
-const typedName=document.querySelector(".typed-name");if(typedName){const nameParts=["Kadhar","Saheed"];typedName.innerHTML="";nameParts.forEach((part,partIndex)=>{const word=document.createElement(partIndex?"em":"span");[...part].forEach((letter,letterIndex)=>{const character=document.createElement("span");character.className="name-letter";character.textContent=letter;character.style.animationDelay=`${(partIndex*part.length+letterIndex)*85}ms`;word.appendChild(character)});typedName.appendChild(word)})}
+const menuButton = document.querySelector('.hamburger');
+const navigation = document.querySelector('#primary-navigation');
+
+function setMenuOpen(open) {
+  navigation.classList.toggle('is-open', open);
+  menuButton.setAttribute('aria-expanded', String(open));
+  menuButton.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+}
+
+menuButton.addEventListener('click', () => {
+  setMenuOpen(menuButton.getAttribute('aria-expanded') !== 'true');
+});
+
+navigation.querySelectorAll('a').forEach((link) => {
+  link.addEventListener('click', () => setMenuOpen(false));
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape') setMenuOpen(false);
+});
+
+window.addEventListener('resize', () => {
+  if (window.innerWidth > 900) setMenuOpen(false);
+});
+
+const typedName = document.querySelector('.typed-name');
+if (typedName) {
+  const nameParts = ['Kadhar', 'Saheed'];
+  typedName.replaceChildren();
+  nameParts.forEach((part, partIndex) => {
+    const word = document.createElement(partIndex ? 'em' : 'span');
+    [...part].forEach((letter, letterIndex) => {
+      const character = document.createElement('span');
+      character.className = 'name-letter';
+      character.textContent = letter;
+      character.style.animationDelay = `${(partIndex * part.length + letterIndex) * 85}ms`;
+      word.appendChild(character);
+    });
+    typedName.appendChild(word);
+  });
+}
