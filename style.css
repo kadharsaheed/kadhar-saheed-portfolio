@@ -112,5 +112,9 @@ body{background:#080b19;color:#eaf2ff}.grid-bg{opacity:.22;background-image:line
 .responsibilities article>div{margin-top:auto;padding-top:8px;color:#9ba9d4;font:9px "JetBrains Mono"}.responsibilities article>div b{color:#ff6bd5;font-weight:400}
 #experience{padding-top:35px;padding-bottom:35px}#experience .section-head{margin-bottom:24px}#experience .work-intro{margin-bottom:26px}#experience .work-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 @media(max-width:600px){#experience .work-grid{grid-template-columns:1fr}}
+#experience .experience-meta{display:grid;grid-template-columns:78px minmax(0,1fr);gap:8px 14px;width:min(100%,410px);margin:0;padding:16px 18px;border:1px solid #586ad066;border-radius:10px;background:#0b1024;color:#b6c3e3;font-size:11px;line-height:1.5}
+#experience .experience-meta dt{color:#65f7e9;font:600 9px "JetBrains Mono";letter-spacing:.8px;text-transform:uppercase}
+#experience .experience-meta dd{margin:0;color:#e5ebff;overflow-wrap:anywhere}
+@media(max-width:1100px){#experience .work-intro{display:block}#experience .experience-meta{margin-top:18px}}
 .header{gap:14px}.header nav{flex:1;justify-content:space-evenly;gap:8px}.header nav a{padding:11px 13px}.sidebar-connect{margin-top:auto;padding-top:16px;border-top:1px solid #8295ff33;justify-content:center}
 @media(max-width:900px){.header{gap:12px}.header nav{flex:0 0 auto;justify-content:flex-start;gap:4px;max-height:calc(100vh - 74px);overflow-y:auto}.header nav.is-open{display:flex}.sidebar-connect{display:none}}
