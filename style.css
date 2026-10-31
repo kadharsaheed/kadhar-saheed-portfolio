@@ -105,3 +105,6 @@ body{background:#080b19;color:#eaf2ff}.grid-bg{opacity:.22;background-image:line
 .marquee{padding-top:12px;padding-bottom:12px}
 @media(max-width:900px){.hero{grid-template-columns:1fr;gap:20px;padding-top:34px;padding-bottom:34px}.hero-right{min-height:0}.server-visual{min-height:290px;width:min(100%,480px);margin:0 auto}}
 @media(max-width:600px){.server-visual{min-height:280px;padding:22px 18px}.linux-mark{width:126px;height:150px}.hero .intro{margin-top:18px}}
+.case-detail{margin:0 0 12px}.case-detail b,.case-outcome b{display:inline-block;min-width:62px;color:#65f7e9;font:600 9px "JetBrains Mono";letter-spacing:.5px;text-transform:uppercase}.case-outcome{margin:0 0 15px;padding:10px 12px;border-left:2px solid #ff6bd5;background:#091129;color:#d7e0f8;font-size:12px!important}.case-outcome b{color:#ff83d8}
+#work .work-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:600px){#work .work-grid{grid-template-columns:1fr}}
