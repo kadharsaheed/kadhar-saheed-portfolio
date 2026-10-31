@@ -101,6 +101,7 @@ body{background:#080b19;color:#eaf2ff}.grid-bg{opacity:.22;background-image:line
 .numbers{margin-top:22px}
 .server-visual{min-height:310px;gap:14px}
 .linux-mark{width:132px;height:132px;border-radius:32px;font-size:76px}
+.linux-mark{display:block;width:150px;height:178px;object-fit:contain;border:0;border-radius:0;background:none;box-shadow:none}
 .marquee{padding-top:12px;padding-bottom:12px}
 @media(max-width:900px){.hero{grid-template-columns:1fr;gap:20px;padding-top:34px;padding-bottom:34px}.hero-right{min-height:0}.server-visual{min-height:290px;width:min(100%,480px);margin:0 auto}}
-@media(max-width:600px){.server-visual{min-height:260px;padding:22px 18px}.linux-mark{width:108px;height:108px;border-radius:27px;font-size:62px}.hero .intro{margin-top:18px}}
+@media(max-width:600px){.server-visual{min-height:280px;padding:22px 18px}.linux-mark{width:126px;height:150px}.hero .intro{margin-top:18px}}

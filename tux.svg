@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 260" role="img" aria-labelledby="title">
+  <title id="title">Multicolor Linux penguin</title>
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#172747"/>
+      <stop offset=".48" stop-color="#3755cf"/>
+      <stop offset="1" stop-color="#a53be1"/>
+    </linearGradient>
+    <linearGradient id="belly" x1="0" y1="0" x2=".8" y2="1">
+      <stop stop-color="#fff"/>
+      <stop offset="1" stop-color="#c8f7ff"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ffe66d"/>
+      <stop offset="1" stop-color="#ff8d31"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="110" cy="243" rx="68" ry="9" fill="#28e6d2" opacity=".18"/>
+  <path d="M53 147C34 161 23 191 30 208c4 9 14 10 21 2l25-27zm114 0c19 14 30 44 23 61-4 9-14 10-21 2l-25-27z" fill="url(#body)" stroke="#10172f" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M68 207c-8 19-5 30 4 34 10 4 26 2 38-5 12 7 28 9 38 5 9-4 12-15 4-34" fill="url(#gold)" stroke="#10172f" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M110 26c-40 0-67 31-67 76v61c0 43 28 73 67 73s67-30 67-73v-61c0-45-27-76-67-76z" fill="url(#body)" stroke="#10172f" stroke-width="8"/>
+  <path d="M110 116c-30 0-46 23-46 53 0 31 17 51 46 51s46-20 46-51c0-30-16-53-46-53z" fill="url(#belly)"/>
+  <path d="M66 69c0-29 18-48 44-48s44 19 44 48c0 25-18 41-44 41S66 94 66 69z" fill="url(#body)" stroke="#10172f" stroke-width="7"/>
+  <ellipse cx="94" cy="69" rx="6" ry="9" fill="#fff"/>
+  <ellipse cx="126" cy="69" rx="6" ry="9" fill="#fff"/>
+  <path d="m110 79-15 14c-3 3-1 8 4 8h22c5 0 7-5 4-8z" fill="url(#gold)" stroke="#10172f" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M54 126c-8 10-12 22-13 34m138-34c8 10 12 22 13 34" fill="none" stroke="#61f6e5" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+</svg>
