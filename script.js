@@ -1,10 +1,12 @@
 const menuButton = document.querySelector('.hamburger');
 const navigation = document.querySelector('#primary-navigation');
+const menuIcon = menuButton.querySelector('.menu-icon');
 
 function setMenuOpen(open) {
   navigation.classList.toggle('is-open', open);
   menuButton.setAttribute('aria-expanded', String(open));
   menuButton.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+  menuIcon.textContent = open ? '×' : '☰';
 }
 
 menuButton.addEventListener('click', () => {
