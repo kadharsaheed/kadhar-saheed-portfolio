@@ -110,5 +110,7 @@ body{background:#080b19;color:#eaf2ff}.grid-bg{opacity:.22;background-image:line
 @media(max-width:600px){#work .work-grid{grid-template-columns:1fr}}
 .responsibilities h4{font:700 22px "Space Grotesk";margin:16px 0 12px}.responsibilities .case-detail{margin:0 0 12px;color:#b6c3e3}.responsibilities .case-outcome{margin:0 0 15px;color:#d7e0f8}
 .responsibilities article>div{margin-top:auto;padding-top:8px;color:#9ba9d4;font:9px "JetBrains Mono"}.responsibilities article>div b{color:#ff6bd5;font-weight:400}
+#experience{padding-top:35px;padding-bottom:35px}#experience .section-head{margin-bottom:24px}#experience .work-intro{margin-bottom:26px}#experience .work-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:600px){#experience .work-grid{grid-template-columns:1fr}}
 .header{gap:14px}.header nav{flex:1;justify-content:space-evenly;gap:8px}.header nav a{padding:11px 13px}.sidebar-connect{margin-top:auto;padding-top:16px;border-top:1px solid #8295ff33;justify-content:center}
 @media(max-width:900px){.header{gap:12px}.header nav{flex:0 0 auto;justify-content:flex-start;gap:4px;max-height:calc(100vh - 74px);overflow-y:auto}.header nav.is-open{display:flex}.sidebar-connect{display:none}}
